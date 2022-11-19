@@ -35,7 +35,7 @@ if [ "$PYTHON_VERSION" == 3.9.9 -o "$PYTHON_VERSION" == 3.9.7 -o "$PYTHON_VERSIO
     PYTHON='PY3'
     IMAGING='python3-imaging'
     PYSIX='python3-six'
-elif [ "$PYTHON_VERSION" == 3.10.4 -o "$PYTHON_VERSION" == 3.10.6 ]; then
+elif [ "$PYTHON_VERSION" == 3.10.4 -o "$PYTHON_VERSION" == 3.10.6 -o "$PYTHON_VERSION" == 3.11.0 ]; then
     echo ":You have $PYTHON_VERSION image ..."
     PYTHONLAST='PY3'
     IMAGING='python3-imaging'
